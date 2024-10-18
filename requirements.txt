@@ -1,0 +1,8 @@
+flask==2.0.3 
+boto3
+python-dotenv
+uwsgi
+sentry-sdk[flask]
+datadog-api-client
+
+

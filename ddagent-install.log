@@ -1,0 +1,29 @@
+[34m
+* Datadog Agent install script v1.34.0
+[0m
+/usr/bin/systemctl
+[34m
+* Installing apt-transport-https, curl and gnupg
+[0m
+Err:1 https://download.docker.com/linux/ubuntu focal InRelease
+  Temporary failure resolving 'download.docker.com'
+Err:2 http://archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'archive.ubuntu.com'
+Err:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:4 https://apt.datadoghq.com stable InRelease
+  Temporary failure resolving 'apt.datadoghq.com'
+Err:5 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'archive.ubuntu.com'
+Err:6 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'archive.ubuntu.com'
+Reading package lists...
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/focal/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/focal-updates/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/focal-backports/InRelease  Temporary failure resolving 'archive.ubuntu.com'
+W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease  Temporary failure resolving 'security.ubuntu.com'
+W: Failed to fetch https://apt.datadoghq.com/dists/stable/InRelease  Temporary failure resolving 'apt.datadoghq.com'
+W: Failed to fetch https://download.docker.com/linux/ubuntu/dists/focal/InRelease  Temporary failure resolving 'download.docker.com'
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+bash: line 1298: /tmp/ddog_install_error_msg: Permission denied
+W: --force-yes is deprecated, use one of the options starting with --allow instead.
